@@ -32,6 +32,8 @@ The script: [fluid.py](builder/fluid.py) contains the implementation of the flui
 
 The script: [order.py](builder/order.py) contains the implementation of the builder pattern to highlight the order. This implementation is not up to par because it should use interfaces to enforce the order. The script is well commented and should be easy to follow. You can run it with a simple `python builder/order.py`.
 
+A proper implementation for calling the builder methods in order is shown in the script: [proper.py](builder/proper.py). The script is well commented and should be easy to follow. You can run it with a simple `python builder/proper.py`.
+
 ### Decorator Functions
 Decorator functions are a way to add functionality to an existing function without changing the function itself. This is done by wrapping the function with another function that adds the functionality.
 This is a python specific feature that has an intersection with the decorator design pattern.

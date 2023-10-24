@@ -11,6 +11,7 @@ The files are not in any particular order. The tutorials are done directly in th
 Here is a list of tutorials we are doing:
 - [8 Queens Problem using Genetic Algorithm](#8-queens-problem-using-genetic-algorithm)
 - [Builder and Fluid Builder Patterns](#builder-and-fluid-builder-patterns)
+- [Decorator Functions](#decorator-functions)
 
 
 ### 8 Queens Problem using Genetic Algorithm
@@ -30,3 +31,10 @@ The fluid builder pattern is a variation of the builder pattern that allows us t
 The script: [fluid.py](builder/fluid.py) contains the implementation of the fluid builder pattern. The script is well commented and should be easy to follow. You can run it with a simple `python builder/fluid.py`.
 
 The script: [order.py](builder/order.py) contains the implementation of the builder pattern to highlight the order. This implementation is not up to par because it should use interfaces to enforce the order. The script is well commented and should be easy to follow. You can run it with a simple `python builder/order.py`.
+
+### Decorator Functions
+Decorator functions are a way to add functionality to an existing function without changing the function itself. This is done by wrapping the function with another function that adds the functionality.
+This is a python specific feature that has an intersection with the decorator design pattern.
+
+The script: [decorator.py](decorator.py) contains the implementation of the decorator functions. The script is well commented and should be easy to follow. You can run it with a simple `python decorator.py`.
+Note that you need the `undecorated` package installed to run this one

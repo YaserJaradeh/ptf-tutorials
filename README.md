@@ -12,6 +12,7 @@ Here is a list of tutorials we are doing:
 - [8 Queens Problem using Genetic Algorithm](#8-queens-problem-using-genetic-algorithm)
 - [Builder and Fluid Builder Patterns](#builder-and-fluid-builder-patterns)
 - [Decorator Functions](#decorator-functions)
+- [Recursion Overview](#recursion-overview)
 
 
 ### 8 Queens Problem using Genetic Algorithm
@@ -40,3 +41,9 @@ This is a python specific feature that has an intersection with the decorator de
 
 The script: [decorator.py](decorator.py) contains the implementation of the decorator functions. The script is well commented and should be easy to follow. You can run it with a simple `python decorator.py`.
 Note that you need the `undecorated` package installed to run this one
+
+### Recursion Overview
+Recursion is a programming technique in which a function calls itself directly or indirectly. This is a very powerful technique that can be used to solve many problems. However, it is not always the best solution and can be very inefficient.
+Recursion relies on an understanding of the call stack and how it works. A stack is a LIFO (Last In First Out) data structure. The call stack is a stack that keeps track of the function calls. When a function is called, it is pushed to the top of the stack. When a function returns, it is popped from the top of the stack. This means that the last function to be called is the first to return.
+
+The script: [recursion.py](recursion.py) contains an overview of recursion types and sample examples. The script is well commented and should be easy to follow. You can run it with a simple `python recursion.py`.

@@ -13,6 +13,7 @@ Here is a list of tutorials we are doing:
 - [Builder and Fluid Builder Patterns](#builder-and-fluid-builder-patterns)
 - [Decorator Functions](#decorator-functions)
 - [Recursion Overview](#recursion-overview)
+- [Code Modularization](#code-modularization)
 
 
 ### 8 Queens Problem using Genetic Algorithm
@@ -47,3 +48,16 @@ Recursion is a programming technique in which a function calls itself directly o
 Recursion relies on an understanding of the call stack and how it works. A stack is a LIFO (Last In First Out) data structure. The call stack is a stack that keeps track of the function calls. When a function is called, it is pushed to the top of the stack. When a function returns, it is popped from the top of the stack. This means that the last function to be called is the first to return.
 
 The script: [recursion.py](recursion.py) contains an overview of recursion types and sample examples. The script is well commented and should be easy to follow. You can run it with a simple `python recursion.py`.
+
+### Code Modularization
+Code modularization is a generic term that refers to the process of breaking a program into multiple files/components. This is done to make the code more readable and maintainable. It also allows for code reuse and easier collaboration.
+
+In the `modular` folder, you will find two folders `before` and `after` to show different modularization techniques applied on various code snippets to demonstrate the benefits of modularization.
+Here is a list of the main concepts covered:
+- [func.py](modular/before/func.py): Working with different functions
+- [flow.py](modular/before/flow.py): Working with control flow
+- [helpers.py](modular/before/helper.py): Working with helper functions
+- [clazz.py](modular/before/clazz.py): Working with classes
+- [vars.py](modular/before/vars.py): Working with variables
+- [pipeline.py](modular/before/pipeline.py): Working with pipelines
+- [procedural.py](modular/before/procedural.py): Working with procedural generation

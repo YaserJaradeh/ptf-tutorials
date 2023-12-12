@@ -14,6 +14,7 @@ Here is a list of tutorials we are doing:
 - [Decorator Functions](#decorator-functions)
 - [Recursion Overview](#recursion-overview)
 - [Code Modularization](#code-modularization)
+- [Behavior Trees](#behavior-trees)
 
 
 ### 8 Queens Problem using Genetic Algorithm
@@ -61,3 +62,11 @@ Here is a list of the main concepts covered:
 - [vars.py](modular/before/vars.py): Working with variables
 - [pipeline.py](modular/before/pipeline.py): Working with pipelines
 - [procedural.py](modular/before/procedural.py): Working with procedural generation
+
+### Behavior Trees
+Behavior trees are a way to model the behavior of an agent.
+They are a hierarchical finite state machine that is used to model the behavior of an agent. They are used in game development and AI programming.
+
+They can also be used as means to problem-solve and model the behavior of a system.
+
+The script: [behavior.py](tree/behavior.py) contains an overview of behavior trees and sample examples. The script is well commented and should be easy to follow. You can run it with a simple `python tree/behavior.py`.
